@@ -39,3 +39,12 @@ footer {
   font-family: 'Indie Flower', cursive;
 
 }
+
+.box {
+  height: 10px;
+  width: 10px;
+  position: absolute;
+  left: 100px;
+  top: 100px;
+  background-color: #4ECCA3;
+}

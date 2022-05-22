@@ -5,8 +5,7 @@
     <title>Dicee</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
-    <!-- Font Awesome -->
-    <script src="https://kit.fontawesome.com/b855b60c19.js" crossorigin="anonymous"></script>
+
   </head>
   <body>
 
@@ -14,22 +13,25 @@
       <h1>Refresh Me</h1>
 
       <div class="dice">
-        <p>Player 1</p>
-        <img id="dice1" class="img1" src="images/dice6.png">
+        <p id="Player_1">Player 1</p>
+        <img class="img1" src="images/dice6.png">
       </div>
 
       <div class="dice">
-        <p>Player 2</p>
-        <img id="dice2" class="img2" src="images/dice6.png">
+        <p id="Player_2">Player 2</p>
+        <img class="img2" src="images/dice6.png">
       </div>
 
     </div>
 
-
+    <div class="box-container">
+      <div id="Box-0" class="box"></div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="main.js"></script>
   </body>
 
   <footer>
     By Mauricio Sibulski
   </footer>
-  <script src="index.js"></script>
 </html>
